@@ -5,7 +5,7 @@ import pyautogui
 time.sleep(3)
 working_time = 3   #int(input('Number of times you want to buy the item >>> '))
 
-desired_item_button = [804, 558]
+desired_item_button = [int(input('X coordinates of desired item')), int(input('Y coordinates of desired item'))]
 confirm_button = [852, 558]
 okay_button = [956, 558]
 
